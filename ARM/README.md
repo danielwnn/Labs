@@ -13,3 +13,4 @@ Useful References:
 * [ARM Template Best Practices](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-best-practices)
 * [Azure Quickstart Templates](https://azure.microsoft.com/en-us/resources/templates/)
 * [VS Code ARM Tools Extension](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools)
+* [ARM Visualizer](http://armviz.io/)
