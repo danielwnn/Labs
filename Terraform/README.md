@@ -17,4 +17,5 @@ Useful References:
 * [Azure Terraform Document](https://docs.microsoft.com/en-us/azure/terraform/)
 * [Azure Terraform Cloud Shell](https://docs.microsoft.com/en-us/azure/terraform/terraform-cloud-shell)
 * [Terraform Sample: Create a VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/terraform-create-complete-vm)
+* [Terraform Module Tutorial](https://learn.hashicorp.com/terraform/azure/modules_az)
 
