@@ -4,7 +4,7 @@ Leverage Azure Automation to achieve the following goals:
 
 * Make sure the Windows VM, which is provisioned in another lab, has IIS installed if not present
 * Make sure any configuration drift will be auto-corrected
-* Shutdown VMs during off-hours
+* Shutdown VMs automatically during off-hours 
 
 Useful References:
 
