@@ -8,7 +8,7 @@ Azure DevOps Deployment using self-hosted agent and deployment group:
 
 Useful References:
 
-* [DevOps Project Samples](https://github.com/microsoft/devops-project-samples)
+* [.NET Core Sample Project](https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web)
 * [Azure Pipeline Agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser)
 * [Self-hosted Linux Agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-linux?view=azure-devops)
 * [Self-hosted Windows Agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops)
