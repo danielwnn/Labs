@@ -17,4 +17,5 @@ Useful References:
 * [Deploy using Deployment Groups](https://azuredevopslabs.com/labs/vstsextend/deploymentgroups/)
 * [IIS Web App Manage Task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/iis-web-app-management-on-machine-group?view=azure-devops)
 * [IIS Web Deploy Task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/iis-web-app-deployment-on-machine-group?view=azure-devops)
+* [IIS Web App Deployment Using WinRM](https://marketplace.visualstudio.com/items?itemName=ms-vscs-rm.iiswebapp)
 
