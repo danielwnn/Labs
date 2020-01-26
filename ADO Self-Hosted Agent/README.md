@@ -14,3 +14,6 @@ Useful References:
 * [Self-hosted Windows Agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops)
 * [IIS Deployment Group](https://docs.microsoft.com/en-us/azure/devops/pipelines/apps/cd/deploy-webdeploy-iis-deploygroups?view=azure-devops)
 * [Deploy using Deployment Groups](https://azuredevopslabs.com/labs/vstsextend/deploymentgroups/)
+* [IIS Web App Manage Task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/iis-web-app-management-on-machine-group?view=azure-devops)
+* [IIS Web Deploy Task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/iis-web-app-deployment-on-machine-group?view=azure-devops)
+
