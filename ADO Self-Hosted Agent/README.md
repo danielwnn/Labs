@@ -3,8 +3,8 @@
 Azure DevOps Deployment using self-hosted agent and deployment group:
 
 * Provision and configure a Windows self-hosted agent
-* Build a sample ASP.NET app using the Windows self-hosted agent
-* Deploy the sample ASP.NET web app using the deployment group
+* Build a sample .NET web app using the Windows self-hosted agent
+* Deploy the sample .NET web app using the deployment group
 
 Useful References:
 
