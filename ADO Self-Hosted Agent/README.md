@@ -3,11 +3,12 @@
 Azure DevOps Deployment using self-hosted agent and deployment group:
 
 * Provision and configure a Windows self-hosted agent
-* Build a sample .NET web app using the Windows self-hosted agent
-* Deploy the sample .NET web app using the deployment group
+* Build a sample .NET Core Web App using the Windows self-hosted agent
+* Deploy the sample .NET Core Web App using the deployment group
 
 Useful References:
 
+* [.NET Core SDK](https://dotnet.microsoft.com/download/dotnet-core/3.1)
 * [.NET Core Sample Project](https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web)
 * [Azure Pipeline Agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser)
 * [Self-hosted Linux Agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-linux?view=azure-devops)
