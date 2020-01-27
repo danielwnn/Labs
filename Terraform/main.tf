@@ -1,6 +1,7 @@
 # Configure the Microsoft Azure Provider
 provider "azurerm" {
     version = "~> 1.33.1"
+    skip_provider_registration = true # add this to avoid permission error for non-admin users
     /*
     subscription_id = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
     client_id       = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
