@@ -1,0 +1,15 @@
+RG=<your resource group>
+USERNAME=azureuser
+PASSWORD=$(openssl rand -base64 32)
+
+az vm create \
+  --resource-group $RG \
+  --name myVM \
+  --image win2016datacenter \
+  --admin-username $USERNAME \
+  --admin-password $PASSWORD
+
+az vm open-port \
+  --port 80 \
+  --resource-group $RG \
+  --name myVM

@@ -1,0 +1,41 @@
+RESOURCEGROUP=danielw-lab-arm-rg
+LOCATION=westus2
+USERNAME=azureuser
+PASSWORD=Password$12345
+DNS_LABEL_PREFIX=vmdanielw
+
+az group create --name $RESOURCEGROUP --location $LOCATION
+
+az group deployment validate \
+  --resource-group $RESOURCEGROUP \
+  --template-uri "https://raw.githubusercontent.com/MicrosoftDocs/mslearn-build-azure-vm-templates/master/windows/azuredeploy.json" \
+  --parameters adminUsername=$USERNAME \
+  --parameters adminPassword=$PASSWORD \
+  --parameters dnsLabelPrefix=$DNS_LABEL_PREFIX
+  
+az group deployment create \
+  --name MyDeployment-danielw \
+  --resource-group $RESOURCEGROUP \
+  --template-uri "https://raw.githubusercontent.com/MicrosoftDocs/mslearn-build-azure-vm-templates/master/windows/azuredeploy.json" \
+  --parameters adminUsername=$USERNAME \
+  --parameters adminPassword=$PASSWORD \
+  --parameters dnsLabelPrefix=$DNS_LABEL_PREFIX  
+  
+az group deployment show \
+  --name MyDeployment-danielw \
+  --resource-group $RESOURCEGROUP
+
+az vm list \
+  --resource-group $RESOURCEGROUP \
+  --output table
+
+az vm extension set \
+  --resource-group $RESOURCEGROUP \
+  --vm-name SimpleWinVM \
+  --name CustomScriptExtension \
+  --publisher Microsoft.Compute \
+  --version 1.9 \
+  --settings '{"fileUris":["https://raw.githubusercontent.com/MicrosoftDocs/mslearn-welcome-to-azure/master/configure-iis.ps1"]}' \
+  --protected-settings '{"commandToExecute": "powershell -ExecutionPolicy Unrestricted -File configure-iis.ps1"}'  
+
+IPADDRESS=$(az vm show --name SimpleWinVM --resource-group $RESOURCEGROUP --show-details --query [publicIps] --output tsv)
