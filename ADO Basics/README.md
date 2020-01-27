@@ -11,6 +11,8 @@ Useful References:
 * [Org Management](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/organization-management?view=azure-devops)
 * [Deploy ARM Templates](https://medium.com/faun/continuously-deploy-arm-templates-using-azure-devops-1855513c7d56)
 * [Deploy Terraform](https://www.azuredevopslabs.com/labs/vstsextend/terraform/)
+* [Terraform state in Azure Storage](https://docs.microsoft.com/en-us/azure/terraform/terraform-backend)
+* [Terraform Backend Configuration](https://www.terraform.io/docs/backends/types/azurerm.html)
 
 
 
