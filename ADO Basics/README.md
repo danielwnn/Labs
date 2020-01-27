@@ -3,7 +3,7 @@
 Deploy ARM Template and Terraform to Azure:
 
 * Create new DevOps organization and project, add your teammates to the org/project and explain your approach
-* Create pipepline(s) to deploy ARM and Terraform
+* Create pipepline(s) to deploy ARM Templates and Terraform Configuration Files
 
 Useful References:
 
