@@ -10,6 +10,7 @@ Deploy a Linux VM in Azure to meet the following requirements:
 
 Useful References:
 
+* [Terraform Download](https://www.terraform.io/downloads.html)
 * [Terraform Configuration](https://www.terraform.io/docs/configuration/terraform.html)
 * [Terraform VM Provider](https://www.terraform.io/docs/providers/azurerm/r/virtual_machine.html)
 * [Terraform Azure Tutorials](https://learn.hashicorp.com/terraform?track=azure#azure)
