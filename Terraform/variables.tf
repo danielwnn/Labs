@@ -16,9 +16,24 @@ variable "tags" {
     }
 }
 
+variable "storage_account_name" {
+  description = "storage account for terraform state file"
+}
+
+variable "storage_account_name" {
+  description = "storage account for terraform state file"
+}
+
+variable "container_name" {
+  description = "storage account container name for terraform state file"
+}
+
+variable "state_file_name" {
+  description = "terraform state file name"
+}
+
 variable "hostname" {
   description = "VM hostname"
-  default     = "vmtflab"
 }
 
 variable "admin_username" {
