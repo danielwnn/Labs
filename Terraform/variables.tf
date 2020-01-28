@@ -20,10 +20,6 @@ variable "storage_account_name" {
   description = "storage account for terraform state file"
 }
 
-variable "storage_account_name" {
-  description = "storage account for terraform state file"
-}
-
 variable "container_name" {
   description = "storage account container name for terraform state file"
 }
