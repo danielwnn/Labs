@@ -6,7 +6,7 @@
 		"value": "azureuser"
     },
     "adminPassword": {
-		"value": "Password@123"
+		"value": "<your password>"
     },
     "dnsLabelPrefix": {
 		"value": "vmwebserver2020"
